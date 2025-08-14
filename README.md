@@ -1,14 +1,39 @@
-_**TypeScript Demo**_ 📜
+# 📜 TypeScript + TypeORM Demo
 
-=> Typescript Easy Demo with one Table **User(id:uuid,phoneNo:string,password:string,create_at:Date,update_at:Date)**
+A simple **TypeScript** and **TypeORM** example with a single table:
 
-=> Also _**TypeORM Demo**_ 
+## 🗄 Database Table
 
-**Steps** 🪜:
+**User**
+| Column | Type |
+|-------------|---------|
+| id | uuid |
+| phoneNo | string |
+| password | string |
+| create_at | Date |
+| update_at | Date |
 
-1️⃣ First Make .env File and Copy from .env.example
+---
 
-2️⃣ npm i
+## 🚀 Getting Started
 
-3️⃣ npm run dev
+### 1️⃣ Clone the Repository
 
+```bash
+git clone <your-repo-url>
+cd <your-project-folder>
+```
+
+### 2️⃣ Setup Environment Variables
+
+```bash
+copy .env.example .env
+Update the values inside .env as per your database configuration.
+```
+
+### 3️⃣ Install Dependencies
+
+```bash
+npm install
+
+```
